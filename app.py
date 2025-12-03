@@ -51,7 +51,7 @@ if st.button("Summarize"):
 
 
     with st.spinner("Summarizing..."):
-        cleaned = clean_text(text)
+        cleaned = clean_text(text_input)
         chunks = split_text(cleaned)
 
         summaries = []
